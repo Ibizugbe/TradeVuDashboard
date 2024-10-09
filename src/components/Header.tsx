@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { MdClose, MdOutlineKeyboardArrowDown } from 'react-icons/md';
-import { RiArrowDropDownLine } from 'react-icons/ri';
 
 const Header = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -23,13 +22,22 @@ const Header = () => {
 
       {/* Desktop Navigation */}
       <nav className="hidden md:flex items-center space-x-8">
-        <a href="#" className="flex items-center gap-3 text-[#6F00FF] font-medium">
+        <a
+          href="#"
+          className="flex items-center gap-3 text-[#6F00FF] font-medium"
+        >
           <img src="home.svg" alt="" />
           Dashboard
         </a>
-        <a href="#" className="text-gray-700">Pay</a>
-        <a href="#" className="text-gray-700">Finance</a>
-        <a href="#" className="text-gray-700">Flex</a>
+        <a href="#" className="text-gray-700">
+          Pay
+        </a>
+        <a href="#" className="text-gray-700">
+          Finance
+        </a>
+        <a href="#" className="text-gray-700">
+          Flex
+        </a>
       </nav>
 
       {/* Notification and User Profile */}
@@ -40,15 +48,12 @@ const Header = () => {
           <span className="absolute top-0 right-0 w-3.5 h-3.5 bg-green-500 rounded-full border-2 border-white"></span>
         </div>
         <div className="hidden md:flex gap-1 items-center">
-              <div className="w-8 h-8 border border-purple-300 rounded-full"></div>
-              <span className="text-gray-800">Vance Refrigeration</span>
-             <MdOutlineKeyboardArrowDown size={28} />
+          <div className="w-8 h-8 border border-purple-300 rounded-full"></div>
+          <span className="text-gray-800">Vance Refrigeration</span>
+          <MdOutlineKeyboardArrowDown size={28} />
         </div>
         {/* Mobile Menu Icon */}
-        <button
-          className="md:hidden text-gray-700"
-          onClick={toggleMobileMenu}
-        >
+        <button className="md:hidden text-gray-700" onClick={toggleMobileMenu}>
           {isMobileMenuOpen ? <MdClose size={27} /> : <FaBars size={27} />}
         </button>
       </div>
@@ -76,31 +81,19 @@ const Header = () => {
               <img src="home.svg" alt="" className="h-5" />
               Dashboard
             </a>
-            <a
-              href="#"
-              className="text-gray-700"
-              onClick={closeMobileMenu}
-            >
+            <a href="#" className="text-gray-700" onClick={closeMobileMenu}>
               Pay
             </a>
-            <a
-              href="#"
-              className="text-gray-700"
-              onClick={closeMobileMenu}
-            >
+            <a href="#" className="text-gray-700" onClick={closeMobileMenu}>
               Finance
             </a>
-            <a
-              href="#"
-              className="text-gray-700"
-              onClick={closeMobileMenu}
-            >
+            <a href="#" className="text-gray-700" onClick={closeMobileMenu}>
               Flex
             </a>
             <div className="flex items-center space-x-3 mt-8">
               <div className="w-8 h-8 border border-purple-300 rounded-full"></div>
               <span className="text-gray-800">Vance Refrigeration</span>
-             <MdOutlineKeyboardArrowDown size={28} />
+              <MdOutlineKeyboardArrowDown size={28} />
             </div>
           </nav>
         </div>
