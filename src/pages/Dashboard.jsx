@@ -15,7 +15,7 @@ const Dashboard = () => {
   const [isCurrencyDropdownOpen, setCurrencyDropdownOpen] = useState(false);
   const [isCreateNewDropdownOpen, setCreateNewDropdownOpen] = useState(false);
   const [selectedFlag, setSelectedFlag] = useState('🇳🇬');
-  const accountNumber = '0912873467'
+  const accountNumber = '0912873467';
 
   const currencyFlagMap = {
     NGN: '🇳🇬',
@@ -49,7 +49,14 @@ const Dashboard = () => {
   return (
     <div className="md:p-8 lg:p-10 mt-16 bg-gray-50 min-h-screen relative">
       {/* Toast Container */}
-      <ToastContainer position="bottom-center" autoClose={2000} hideProgressBar={false} closeOnClick pauseOnHover draggable />
+      <ToastContainer
+        position="bottom-center"
+        autoClose={2000}
+        hideProgressBar={false}
+        closeOnClick
+        pauseOnHover
+        draggable
+      />
 
       {/* Header Section */}
       <div className="px-4 py-2 pt-8 md:pt-0 md:pb-5 flex flex-col md:flex-row justify-between items-start md:items-center relative z-10">

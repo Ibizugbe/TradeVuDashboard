@@ -6,8 +6,8 @@ function App() {
     <>
       <Header />
       <main>
-        <div className='bg-gray-50'>
-        <Dashboard />
+        <div className="bg-gray-50">
+          <Dashboard />
         </div>
       </main>
     </>
