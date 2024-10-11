@@ -65,6 +65,8 @@
 - **Create New Dropdown**: Allows users to create invoices, orders, and shipments.
 - **Notification System**: Provides a popup with notifications and filtering options.
 - **Responsive Design**: Optimized for both desktop and mobile views.
+- **Copy to clipboard.
+- **Hide and show balance.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
