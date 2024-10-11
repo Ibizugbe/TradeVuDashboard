@@ -132,7 +132,7 @@ const Dashboard = () => {
       {/* Overview Cards - Horizontal Scroll Enabled Across All Screens */}
       <div className="px-4 md:px-0 overflow-x-auto scrollbar-hidden">
         <div className="flex gap-6 mb-8">
-          <div className="bg-white p-6 rounded-lg shadow-sm flex-shrink-0  min-w-[382px]">
+          <div className="bg-white p-6 rounded-lg shadow-sm flex-shrink-0 min-w-[320px] md:min-w-[382px]">
             <h3 className="text-gray-500 text-sm">Your balance</h3>
             <p className="text-3xl font-bold text-gray-800">
               {isVisible ? '₦4,350,000.20' : '••••••••••'}
@@ -147,7 +147,7 @@ const Dashboard = () => {
               <span className="mx-2">·</span> Sudo Bank
             </p>
           </div>
-          <div className="bg-white p-6 rounded-lg shadow-sm relative flex-shrink-0  min-w-[382px]">
+          <div className="bg-white p-6 rounded-lg shadow-sm relative flex-shrink-0 min-w-[320px] md:min-w-[382px]">
             <h3 className="text-gray-500 text-sm">Active orders</h3>
             <p className="text-3xl font-bold text-gray-800">7</p>
             <p className="text-gray-400 mt-2 text-sm">₦0.00 overdue</p>
@@ -157,12 +157,12 @@ const Dashboard = () => {
               <span className="h-2 w-2 rounded-full bg-gray-300"></span>
             </div>
           </div>
-          <div className="bg-white p-6 rounded-lg shadow-sm flex-shrink-0 min-w-[382px]">
+          <div className="bg-white p-6 rounded-lg shadow-sm flex-shrink-0 min-w-[320px] md:min-w-[382px]">
             <h3 className="text-gray-500 text-sm">Active loans</h3>
             <p className="text-3xl font-bold text-gray-800">10</p>
             <p className="text-gray-400 mt-2 text-sm">2 pending payment</p>
           </div>
-          <div className="bg-white p-6 rounded-lg shadow-sm flex-shrink-0  min-w-[382px]">
+          <div className="bg-white p-6 rounded-lg shadow-sm flex-shrink-0 min-w-[320px]  md:min-w-[382px]">
             <div className="flex justify-between items-center">
               <h3 className="text-gray-500 text-sm">Unpaid invoices</h3>
               <button className="text-gray-500 hover:text-gray-700 text-sm">
