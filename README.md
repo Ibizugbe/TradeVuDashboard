@@ -82,7 +82,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://trade-vu-dashboard-git-dev-abraham-ibizugbes-projects.vercel.app/)
+- [Live Demo Link](https://trade-vu-dashboard.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
