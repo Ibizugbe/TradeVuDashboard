@@ -2,6 +2,13 @@
   <h3><b>TradeVuDashboard</b></h3>
 </div>
 
+
+<div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <img src="tradevu.png" alt="project snapshot" width="720"  height="auto" />
+  <br/>
+
+</div>
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -26,6 +33,7 @@
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 TradeVuDashboard <a name="about-project"></a>
+
 
 **Tradevu TradeVuDashboard** is a dashboard-based application that enables users to manage transactions, notifications, and other financial activities. It uses modern web development tools to provide a clean and responsive user interface.
 
