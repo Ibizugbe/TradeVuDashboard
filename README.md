@@ -65,8 +65,8 @@
 - **Create New Dropdown**: Allows users to create invoices, orders, and shipments.
 - **Notification System**: Provides a popup with notifications and filtering options.
 - **Responsive Design**: Optimized for both desktop and mobile views.
-- **Copy to clipboard**.
-- **Hide and show balance**.
+- **Copy to clipboard**: when you click the copy icon, the account number is copied to the clipboard.
+- **Hide and show balance: when you click the eye icon, the account balance is exposed and vice versa**.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
